@@ -41,16 +41,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MeAwaraHu')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", 'Hey {mention}👋
-
-{file_name}
-
-🔘 size - {file_size}
-
-╭─── • ❰ @Movies4USupport ❱ • ────➤
-┣ ▫️ @Movies4UBackupChannel
-┣ ▫️ @Movies4UWorldOfficial
-╰─────── • ◆ • ───────➤')
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
