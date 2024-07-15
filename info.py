@@ -71,5 +71,5 @@ if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
 #Sample
-SHORTNER_SITE = ""
-SHORTNER_API = ""
+SHORTNER_SITE = "disable"
+SHORTNER_API = "disable"
