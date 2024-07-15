@@ -71,6 +71,6 @@ if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
 #Sample
-SHORTNER_SITE = "https://gplinks.com"
-SHORTNER_API = "17cc80f3b0a0d97f0fc4d3c30218357120e68a58"
+SHORTNER_SITE = ""
+SHORTNER_API = ""
 
