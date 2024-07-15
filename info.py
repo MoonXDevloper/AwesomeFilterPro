@@ -71,6 +71,5 @@ if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
 #Sample
-SHORTNER_SITE =  environ.get('SHORTNER_SITE', 'https://tnshort.net/') #Put Only Shortner Site domain don't put like this https://tnlink.in/
-
-SHORTNER_API =  environ.get('SHORTNER_API', '23a405eac3227bac71e6beaa4d60db70ce12a781')
+SHORTNER_SITE = ""
+SHORTNER_API = ""
